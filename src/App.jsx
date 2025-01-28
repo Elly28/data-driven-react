@@ -1,5 +1,3 @@
-import Header from "./component/Header"
-import Entry from "./component/Entry"
 import Contact from "./component/Contact"
 
 const person = {
@@ -20,7 +18,7 @@ function App() {
               img={person.img} 
               name={person.name} 
               phone={person.phone} 
-              email={person.email} 
+              email={person.email}
           />
       </main>
     
