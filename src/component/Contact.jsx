@@ -1,4 +1,5 @@
 export default function Contact({img, name, phone, email}){
+    
     return (
         <article className="contact-card">
             <img
@@ -23,4 +24,13 @@ export default function Contact({img, name, phone, email}){
         </article> 
     )
 }
+
+const person = {
+    img: '../../mr-whiskerson.png',
+    name: 'Mr. Whiskerson',
+    phone: '(212) 555-1234',
+    email: 'mr.whiskaz@catnap.meow'
+  };
+  
+const {img, name, phone, email} = person;
 
